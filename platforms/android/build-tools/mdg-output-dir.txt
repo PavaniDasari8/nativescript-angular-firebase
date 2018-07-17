@@ -1,1 +1,1 @@
-/home/pllc/workspace/know/testangular/platforms/android/app/src/main/assets/metadata
+/home/pllc/dump/native/nativescript-angular-firebase/platforms/android/app/src/main/assets/metadata

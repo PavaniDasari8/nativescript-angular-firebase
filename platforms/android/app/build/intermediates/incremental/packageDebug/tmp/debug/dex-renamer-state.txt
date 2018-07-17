@@ -1,4 +1,4 @@
-#Tue Jul 17 17:29:29 IST 2018
-base.0=/home/pllc/workspace/know/testangular/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Jul 17 22:40:16 IST 2018
+base.0=/home/pllc/dump/native/nativescript-angular-firebase/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
