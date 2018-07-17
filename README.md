@@ -1,6 +1,6 @@
 # nativescript-angular-firebase
 
-git clone 
+git clone https://github.com/PavaniDasari8/nativescript-angular-firebase.git
 npm i
 
 connect android device
