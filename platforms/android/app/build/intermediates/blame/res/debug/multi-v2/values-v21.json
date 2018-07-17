@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pllc/workspace/know/testangular/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/pllc/dump/native/nativescript-angular-firebase/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/pllc/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/e93566513c2452cf88ded82d2343f873/res/values-v21/values-v21.xml",
@@ -42,24 +42,7 @@
                     }
                 },
                 {
-                    "source": "/home/pllc/workspace/know/testangular/platforms/android/app/src/main/res/values-v21/colors.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "1",
-                        "startOffsets": "52",
-                        "endColumns": "40",
-                        "endOffsets": "91"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "159",
-                        "endColumns": "43",
-                        "endOffsets": "198"
-                    }
-                },
-                {
-                    "source": "/home/pllc/workspace/know/testangular/platforms/android/app/src/main/res/values-v21/styles.xml",
+                    "source": "/home/pllc/dump/native/nativescript-angular-firebase/platforms/android/app/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "4,19,10,15",
                         "startColumns": "4,4,4,4",
@@ -75,6 +58,23 @@
                         "endLines": "10,232,273,276",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "610,17317,19825,19984"
+                    }
+                },
+                {
+                    "source": "/home/pllc/dump/native/nativescript-angular-firebase/platforms/android/app/src/main/res/values-v21/colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "1",
+                        "startOffsets": "52",
+                        "endColumns": "40",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endColumns": "43",
+                        "endOffsets": "198"
                     }
                 }
             ]

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pllc/workspace/know/testangular/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/home/pllc/dump/native/nativescript-angular-firebase/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/home/pllc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/57a69be7309a0983a368a4bcda1be4da/res/values-eu/values-eu.xml",
