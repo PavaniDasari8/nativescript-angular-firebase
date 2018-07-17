@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
-import { Item } from "./item";
-import { ItemService } from "./item.service";
+import * as tnsOAuthModule from "nativescript-oauth";
+import {Router} from "@angular/router";
 
 @Component({
     selector: "ns-items",
@@ -9,13 +9,25 @@ import { ItemService } from "./item.service";
     templateUrl: "./items.component.html",
 })
 export class ItemsComponent implements OnInit {
-    items: Item[];
 
     // This pattern makes use of Angular’s dependency injection implementation to inject an instance of the ItemService service into this class. 
     // Angular knows about this service because it is included in your app’s main NgModule, defined in app.module.ts.
-    constructor(private itemService: ItemService) { }
+    constructor(private router: Router) { }
 
     ngOnInit(): void {
-        this.items = this.itemService.getItems();
+    }
+
+    public onTap() {
+        // this._counter--;
+        // this.updateMessage();
+        tnsOAuthModule
+            .ensureValidToken()
+            .then((token: string) => {
+                console.log("token: " + token);
+                this.router.navigate(["item"]);
+            })
+            .catch(er => {
+                //do something with the error
+            });
     }
 }

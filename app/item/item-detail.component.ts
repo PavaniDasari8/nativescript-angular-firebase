@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
-import { Item } from "./item";
-import { ItemService } from "./item.service";
+import { AngularFirestore } from 'angularfire2/firestore';
+import { Observable } from "rxjs";
 
 @Component({
     selector: "ns-details",
@@ -10,15 +10,16 @@ import { ItemService } from "./item.service";
     templateUrl: "./item-detail.component.html",
 })
 export class ItemDetailComponent implements OnInit {
-    item: Item;
+    items: Observable<any[]>;
 
     constructor(
-        private itemService: ItemService,
-        private route: ActivatedRoute
-    ) { }
+        db: AngularFirestore
+    ) {
+        this.items = db.collection('items').valueChanges();
+     }
 
     ngOnInit(): void {
-        const id = +this.route.snapshot.params["id"];
-        this.item = this.itemService.getItem(id);
+        // const id = +this.route.snapshot.params["id"];
+        // this.item = this.itemService.getItem(id);
     }
 }
